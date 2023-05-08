@@ -1,0 +1,17 @@
+[tool.kedro]
+package_name = "spain_sales_report_v5_kedro"
+project_name = "Spain_Sales_Report_V5_kedro"
+kedro_init_version = "0.18.8"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = """
+--cov-report term-missing \
+--cov src/spain_sales_report_v5_kedro -ra"""
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]
