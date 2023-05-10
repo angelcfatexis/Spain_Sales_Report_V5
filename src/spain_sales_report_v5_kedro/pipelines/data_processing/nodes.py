@@ -287,6 +287,7 @@ def creation_of_cross_file2(data: pd.DataFrame) -> pd.DataFrame:
     return df_return
 
 
+
 def groupby_short_name_file2(data: pd.DataFrame) -> pd.DataFrame:
     # Comentario explicativo de la funcion
 
