@@ -3,7 +3,6 @@ import polars as pl
 import time
 import os
 
-
 ###################################### POLARS ################################
 
 '''
@@ -18,7 +17,6 @@ def conversion_to_polars_file2(data: pd.DataFrame) -> pl.DataFrame:
    
     return pl.from_pandas(data)
 '''
-
 
 def conversion_to_polars_file1() -> pl.DataFrame:
 # Comentario explicativo de la funcion
